@@ -10,8 +10,8 @@
 
 	--boton-rojo: #b72e2e;
 
-	--fuente-monsterrat: "Montserrat", sans-serif;
-	--fuente-open-sans: "Open Sans", sans-serif;
+	--montserrat: "Montserrat", sans-serif;
+	--open-sans: "Open Sans", sans-serif;
 	--fuente-ceniza-claro: #666666;
 	--fuente-ceniza-oscuro: #4f4c4c;
 
@@ -25,7 +25,7 @@
 }
 
 body {
-	font-family: var(--fuente-open-sans);
+	font-family: var(--open-sans);
 }
 
 .container {

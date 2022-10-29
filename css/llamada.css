@@ -2,15 +2,15 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	color: #ffffff;
+	color: white;
 	text-align: center;
-	background-color: #00161c;
+	background-color: var(--background-llamada-mobile);
 	padding-top: 12.25rem;
 	padding-bottom: 2.5rem;
 }
 
 .llamada__titulo {
-	font-family: var(--fuente-monsterrat);
+	font-family: var(--montserrat);
 	font-size: 2rem;
 	font-weight: 700;
 	text-transform: uppercase;
