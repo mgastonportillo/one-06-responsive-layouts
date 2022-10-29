@@ -28,10 +28,6 @@ body {
 	font-family: var(--fuente-open-sans);
 }
 
-h1 {
-	font-family: var(--fuente-monsterrat);
-}
-
 .container {
 	padding: 0 6%;
 }
