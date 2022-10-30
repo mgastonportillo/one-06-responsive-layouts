@@ -9,7 +9,7 @@
 <li>HTML</li>
 <li>Emmet</li>
 <li>CSS</li>
-<li>Flex</li>
+<li>Flexbox</li>
 <li>Media queries</li>
 <li>BEM</li>
 <li>Mobile first</li>
