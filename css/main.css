@@ -24,6 +24,10 @@
 	--background-footer: #333333;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: var(--open-sans);
 }
