@@ -1,3 +1,1 @@
-# Proyecto Apeperia
-
-Archivos iniciales del proyecto para Apeperia del curso "Layouts Responsivos: Trabajando con layouts mobile", de Alura LATAM.
+<h1><a href="https://one-06-layouts-responsivos.vercel.app/">Preview</a></h1>
