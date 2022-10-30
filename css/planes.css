@@ -11,23 +11,24 @@
 	font-family: var(--montserrat);
 	text-transform: uppercase;
 	text-align: center;
-
-	margin-bottom: 1.25rem;
+	margin-bottom: 2rem;
 }
 
 .planes__tarjetas {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 1.2rem;
+	flex-wrap: wrap;
 }
 
 .tarjetas {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	background-color: var(--background-blanco);
 	width: 100%;
 	max-width: 300px;
-	margin-bottom: 2rem;
 	border-radius: 5px;
 	box-shadow: 0 2px 10px 2px #00000010;
 }
@@ -56,6 +57,7 @@
 .tarjetas__texto {
 	color: var(--fuente-ceniza-claro);
 	line-height: 28px;
+	flex-grow: 2;
 }
 
 .tarjetas__boton {
@@ -74,6 +76,9 @@
 
 .tarjetas--ultra {
 	color: var(--planes-card-ultra);
+	order: 3;
+	border: 2px solid;
+	border-color: #58427c;
 }
 
 .tarjetas--mega {
@@ -90,4 +95,33 @@
 
 .tarjetas__boton--mega {
 	border-color: var(--planes-card-mega);
+}
+
+@media screen and (max-width: 1024px) {
+	.planes__tarjetas {
+		gap: 2rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.planes__tarjetas {
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-end;
+		flex-wrap: wrap;
+	}
+
+	.tarjetas {
+		width: 300px;
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.tarjetas--ultra {
+		color: var(--planes-card-ultra);
+		order: 0;
+		border: none;
+		border-color: var(--planes-card-ultra);
+	}
 }
